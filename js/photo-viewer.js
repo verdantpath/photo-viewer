@@ -19,3 +19,9 @@ function crossfade($img) {
 
   $current = $img;
 }
+
+$(document).on('click', '.thumb', function(e) {
+  var $img;
+  var src = this.href;
+  request = src;
+}
