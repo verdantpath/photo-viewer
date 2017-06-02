@@ -24,4 +24,11 @@ $(document).on('click', '.thumb', function(e) {
   var $img;
   var src = this.href;
   request = src;
+
+  e.preventDefault();
+
+  $thumbs.removeClass('active');
+  $(this).addClass('active');
+
+  
 }
