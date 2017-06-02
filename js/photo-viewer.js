@@ -59,3 +59,5 @@ $(document).on('click', '.thumb', function(e) {
 
   }
 });
+
+$('.thumb').eq(0).click();
