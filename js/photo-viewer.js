@@ -50,5 +50,12 @@ $(document).on('click', '.thumb', function(e) {
       }
     });
 
+    $frame.addClass('is-loading');
+
+    $img.attr({
+      'src': src,
+      'alt': this.title || ''
+    });
+
   }
 });
